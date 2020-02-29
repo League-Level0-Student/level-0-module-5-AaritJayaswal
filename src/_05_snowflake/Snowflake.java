@@ -5,6 +5,10 @@ package _05_snowflake;
  */
 
 import java.awt.Color;
+import javax.swing.JOptionPane;
+
+import org.jointheleague.graphical.robot.Robot;
+import org.jointheleague.graphical.robot.RobotImage;
 
 
 public class Snowflake {
@@ -12,7 +16,7 @@ public class Snowflake {
 	public static void main(String[] args) {
 
 		// #1. Make a new Robot
-
+Robot joe= new Robot();
 
 		// #2. Set your robot’s position to x=300 and y=300
 
