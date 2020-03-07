@@ -82,8 +82,8 @@ for(int p = 2; p<l;p++) {
 					//    to start over. Use 'break;' to break out of the loop.
 else {
 	
-	JOptionPane.showMessageDialog(null, "Incorrect! Start over!");
-	JOptionPane.showMessageDialog(null,"That was "+(p-1)+" digits of pi!");
+	JOptionPane.showMessageDialog(null, "Incorrect! Start over!"+
+	" That was "+(p-1)+" digits of pi!");
 	break;
 
 }
